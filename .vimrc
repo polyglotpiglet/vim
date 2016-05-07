@@ -1,3 +1,6 @@
+"" shortcuts
+inoremap jk <esc>   " map jk to escape so i dont need to move my hands
+
 "" tabs and spacing
 set tabstop=4		" number of visual spaces per tab
 set softtabstop=4	" number of spaces in tab when editing
