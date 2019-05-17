@@ -27,12 +27,9 @@ Plugin 'vim-syntastic/syntastic'
 call vundle#end()          
 filetype plugin indent on 
 " Vundle is now finished
-
-
 let mapleader = "\<space>"
 inoremap jk <esc>
 
-colorscheme badwolf 
 syntax on
 
 noremap <Leader>s :update<CR>
@@ -73,7 +70,6 @@ map <silent> tq :GhcModType<CR>
 map <silent> te :GhcModTypeClear<CR>
 
 set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
